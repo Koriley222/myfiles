@@ -1,0 +1,33 @@
+@media (max-width: 450px) {
+	.header-nav {
+		flex-direction: column;
+		justify-content: none;
+		align-items: self-start;
+	}
+	.ru {
+		visibility: hidden;
+	}
+	.photos {
+		display: flex;
+		flex-direction: column;
+		gap: 200px;
+
+	}
+	.programs-title {
+		flex-direction: column;
+		gap: 260px;
+		margin-top: -887.16px;
+	}
+	.stars {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		row-gap: 262px;
+		margin-top: -875px;
+		margin-right: -30px;
+
+	}
+	.header {
+		padding-top: 65px;
+	}
+}

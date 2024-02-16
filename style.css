@@ -1,0 +1,196 @@
+@import "./reset.css";
+@import url"./font/font.css"
+
+body {
+
+
+
+
+}
+
+.container {
+	max-width: 1003px;
+	padding: 100 30px;
+	margin: 0 auto;
+}
+.containertwo {
+	max-width: 1003px;
+	min-height: 506px;
+	padding: 107px 0;
+	margin: 0 auto;
+	background-color: #F6F6F6;
+}
+.header {
+	padding-top: 128.13px;
+	background-color: white;
+}
+.name {
+	font-weight: 700;
+	font-size: 47px;
+	font-family: 'Gilroy';
+	width: 132.51px;
+	padding-bottom: 30.64px;
+}
+.biolist {
+	display: flex;
+}
+.ru{
+	color:grey;
+	transform: rotate(270deg);
+	font-weight: 500;
+	font-size: 16px;
+	font-family: 'Gilroy';
+
+}
+.eng {
+	color: black;
+}
+.uxui {
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-weight: 500;
+
+}
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap-column: 270px;
+}
+.aboutme {
+	background-color: #F6F6F6;
+	padding: 110px 0;
+}
+.aboutmetitle {
+	text-align: center;
+	margin-bottom: 17.69px;
+}
+.title-1 {
+	font-size: 34px;
+	font-weight: 600;
+	font-family: 'Gilroy';
+}
+.textabout-title {
+	text-align: center;
+}
+.textabout {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 2;
+	font-family: 'Gilroy';
+}
+
+.skills {
+	background-color: #FFFFFF;
+	padding: 100px 0;
+}
+.skillstitle {
+	text-align: center;
+	padding-bottom: 69.1px;
+}
+.myskillstitle {
+	text-align: center;
+	padding-bottom: 83.49px;
+}
+.photos {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.programs-title {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding-top: 22.61px;
+	padding-left: 8.03px;
+	font-family: 'Gilroy';
+	font-weight: 600;
+	color: #828282;
+	padding-right: 8.03px;
+}
+.stars {
+	display: flex;
+	padding-top: 41px;
+	justify-content: space-between;
+	margin-left: -38.51px;
+	margin-right: -51.56px;
+}
+.portfolio {
+	text-align: center;
+	font-family: 'Gilroy';
+	font-size: 34px;
+	font-weight: 700;
+
+}
+.ofs {
+	display: flex;
+	align-items: center;
+	padding-top: 47px;
+}
+.ofslinkblock {
+	text-align: center;
+	padding-top: 44.88px;
+}
+.ofslinktext {
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+	text-decoration: underline;
+}
+a {
+	color: inherit;
+}
+.other {
+	display: flex;
+	align-items: center;
+	padding-top: 99.09px;
+}
+.contactsinfo {
+	text-align: center;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-weight: 500;
+	padding-top: 20.03px;
+	line-height: 2;
+}
+.contacts {
+	text-align: center;
+	font-family: 'Gilroy';
+	font-size: 34px;
+	font-weight: 600;
+}
+.buttonblock {
+	display: flex;
+	justify-content: center;
+	padding-top: 29.6px;
+
+}
+.button {
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-weight: 500;
+	background-color: black;
+	color: white;
+	padding: 6px 29.08px;
+	border-radius: 40px;
+}
+.socialmedia {
+	display: flex;
+	justify-content: center;
+	padding-top: 85.78px;
+	gap: 61.35px;
+}
+.likebox {
+	display: flex;
+	justify-content: center;
+	padding-top: 45.06px;
+	padding-bottom: 123.19px;
+	text-align: center;
+	line-height: 1.7;
+	font-family: 'Gilroy';
+	font-weight: 500;
+	color: #828282;
+}
